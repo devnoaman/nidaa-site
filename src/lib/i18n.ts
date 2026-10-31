@@ -36,7 +36,7 @@ export const dict = {
       title: 'نِداء — منصة عراقية بسيطة لإشعاراتك',
       eyebrow: 'إشعارات Push لتطبيقاتك', h1: 'منصة عراقية بسيطة لإشعاراتك.',
       lead: 'أرسل إشعارات push لتطبيقاتك عبر FCM وAPNs — من الـ API أو الـ SDK أو الكونسول. بدون تعقيد.',
-      n1t: 'طلبك وصل 🎉', n1s: 'تطبيقك · الآن', n2t: 'عرض جديد', n2s: 'Topic: all',
+      n1t: 'طلبك وصل 🎉', n1s: 'تطبيقك · الآن', n2t: 'عرض جديد', n2s: 'Topic: all', n1m: 'الآن', n2m: '٢د',
       howH: 'كيف يشتغل', howSub: 'ثلاث خطوات وتبدي ترسل.',
       steps: [
         { t: 'أنشئ تطبيقاً', d: 'سجّل تطبيقك بالكونسول أو الـ API وخذ مفتاحك.' },
@@ -74,7 +74,7 @@ export const dict = {
       title: 'Nidaa — Simple push notifications, made in Iraq',
       eyebrow: 'Push notifications for your apps', h1: 'A simple Iraqi platform for your notifications.',
       lead: 'Send push notifications to your apps via FCM and APNs — from the API, the SDK or the console. No hassle.',
-      n1t: 'Your order arrived 🎉', n1s: 'Your app · now', n2t: 'New offer', n2s: 'Topic: all',
+      n1t: 'Your order arrived 🎉', n1s: 'Your app · now', n2t: 'New offer', n2s: 'Topic: all', n1m: 'Now', n2m: '2m',
       howH: 'How it works', howSub: 'Three steps and you’re sending.',
       steps: [
         { t: 'Create an app', d: 'Register your app in the console or via the API and get your key.' },
