@@ -28,7 +28,7 @@
     </button>
   </div>
   {#if open}
-    <div id="mnav" class="mnav" transition:slide={{ duration: 240 }}>
+    <div id="mnav" class="mnav" transition:slide={{ duration: (typeof matchMedia !== 'undefined' && matchMedia('(prefers-reduced-motion: reduce)').matches) ? 0 : 240 }}>
       <div class="w">
         {#each links as k}<a href={href(lang, k.p)} class:on={bare === k.p}>{k.l}</a>{/each}
         <a href={DOCS} target="_blank" rel="noopener">{t.nav.docs}</a>

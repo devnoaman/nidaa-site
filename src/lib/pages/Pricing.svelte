@@ -22,7 +22,7 @@
 <style>
 .tier{display:flex;flex-direction:column}
 .tier.hi{border-color:var(--primary)}
-.price{font-size:30px;font-weight:800;color:var(--faint);margin-block:18px}
+.price{display:inline-block;background:var(--accent-tint,#E6F6F3);color:var(--accent,#0E9F8E);font-size:14px;font-weight:700;border-radius:var(--r-pill);padding:4px 14px;margin-block:18px}
 ul{padding-inline-start:18px;color:var(--muted);line-height:2;font-size:15px;flex:1}
 .btn{margin-top:18px;width:100%}
 .note{margin-top:24px;margin-bottom:0}
